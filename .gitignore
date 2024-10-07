@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 #API Key
-src/config/gemini.js
+gemini.js
