@@ -4,11 +4,11 @@
  * $ npm install @google/generative-ai
  */
 
-const {
+import {
     GoogleGenerativeAI,
     HarmCategory,
     HarmBlockThreshold,
-  } = require("@google/generative-ai");
+  } from "@google/generative-ai";
   
   const apiKey = "AIzaSyB-VwPr2uzRleWoAQHFVvjE593CCcYaI0k";
   const genAI = new GoogleGenerativeAI(apiKey);
